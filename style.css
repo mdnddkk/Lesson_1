@@ -8,6 +8,10 @@ body {
 
     overflow: hidden;
     gap: 50px;
+    background-image: url(bgIImg.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .block1 {
