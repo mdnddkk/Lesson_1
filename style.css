@@ -1,0 +1,72 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+
+    overflow: hidden;
+    gap: 50px;
+}
+
+.block1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.block1 #Red {
+    color: red;
+}
+.block1 #Yellow {
+    color: yellow;
+}
+.block1 #Green {
+    color: green;
+}
+.block3 #Magenta {
+    color: magenta;
+}
+.block3 #Blue {
+    color: Blue;
+}
+.block3 #Cyan {
+    color: cyan;
+}
+
+.block2 {
+    display: flex;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    width: 200px;
+    height: 80px;
+    background-color: #000;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.block2 .leftCircle{
+    width: 200px;
+    height: 400px;
+    background-color: #888;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+
+}
+
+.block2 .rightCircle{
+    width: 200px;
+    height: 400px;
+    background-color: #888;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+}
