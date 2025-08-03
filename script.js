@@ -10,7 +10,7 @@ const CyanBtn = document.getElementById("Cyan")
 
 function turnOnRed () {
     leftCircleSpan.style.backgroundColor = "red"
-    RedBtn.style.backgroundColor = "green"
+    RedBtn.style.backgroundColor = "red"
     RedBtn.style.color = "white"
     YellowBtn.style.backgroundColor = "black"
     YellowBtn.style.color = "yellow"
@@ -21,7 +21,7 @@ RedBtn.addEventListener("click", turnOnRed)
 
 function turnOnYellow () {
     leftCircleSpan.style.backgroundColor = "yellow"
-    YellowBtn.style.backgroundColor = "green"
+    YellowBtn.style.backgroundColor = "Yellow"
     YellowBtn.style.color = "white"
     RedBtn.style.backgroundColor = "black"
     RedBtn.style.color = "red"
@@ -43,7 +43,7 @@ GreenBtn.addEventListener("click", turnOnGreen)
 
 function turnOnMagenta () {
     rightCircleSpan.style.backgroundColor = "magenta"
-    MagentaBtn.style.backgroundColor = "green"
+    MagentaBtn.style.backgroundColor = "magenta"
     MagentaBtn.style.color = "white"
     BlueBtn.style.backgroundColor = "black"
     BlueBtn.style.color = "blue"
@@ -54,7 +54,7 @@ MagentaBtn.addEventListener("click", turnOnMagenta)
 
 function turnOnBlue () {
     rightCircleSpan.style.backgroundColor = "blue"
-    BlueBtn.style.backgroundColor = "green"
+    BlueBtn.style.backgroundColor = "blue"
     BlueBtn.style.color = "white"
     MagentaBtn.style.backgroundColor = "black"
     MagentaBtn.style.color = "magenta"
@@ -65,7 +65,7 @@ BlueBtn.addEventListener("click", turnOnBlue)
 
 function turnOnCyan () {
     rightCircleSpan.style.backgroundColor = "cyan"
-    CyanBtn.style.backgroundColor = "green"
+    CyanBtn.style.backgroundColor = "cyan"
     CyanBtn.style.color = "white"
     MagentaBtn.style.backgroundColor = "black"
     MagentaBtn.style.color = "magenta"
